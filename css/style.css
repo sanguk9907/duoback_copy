@@ -2719,6 +2719,10 @@ iframe{
 
     /* 섹션5 */
 
+    .m-section05{
+        display: none;
+    }
+
     .m-section05 > .inner{
         padding: 70px 2%;
     }
@@ -3068,6 +3072,10 @@ iframe{
 
     .section05{
         display: none;
+    }
+
+    .m-section05{
+        display: block;
     }
 
     .section06 > h1{
