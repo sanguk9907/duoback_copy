@@ -1,0 +1,56 @@
+/* 노멀라이징 */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat","NEXON Lv2 Gothic","NanumBarunGothic-w";
+}
+ul , li{
+    list-style: none;
+}
+
+p , a{
+    text-decoration: none;
+    color:inherit ;
+}
+
+/* 라이브러리 */
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cell{
+    float: left;
+}
+
+.cell-r{
+    float: right;
+}
+
+.con{
+    max-width: 1520px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "NEXON Lv2 Gothic";
+    src: url(../font/NEXON\ Lv2\ Gothic.woff);
+}
+
+@font-face {
+    font-family: "NanumBarunGothic-w";
+    src: url(../font/NanumGothic-Regular.ttf);
+}
+
+
+
+
+
+
